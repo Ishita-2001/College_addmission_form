@@ -1,0 +1,158 @@
+<!DOCTYPE html> 
+<head> 
+</head> 
+<title>College Admission Form</title> 
+<link rel="stylesheet" href="uemaddform.css"> 
+
+<body bgcolor=""> 
+<div class="container"> 
+<form action=""> 
+<h1 class="main_heading">College Admission Form</h1> 
+<p>* are required fields</p> 
+<h2>Contact Information</h2> 
+<fieldset> 
+<legend>Name</legend> 
+<p>Fname:* <input type="text" name="FirstName" color="red" required placeholder="Ishita"></p> 
+<p>Midname: <input type="text" name="MidName" required placeholder="Kumari"></p> 
+<p>Lname:* <input type="text" name="LastName" required placeholder="Pahari"></p> 
+</fieldset> 
+<p>Phn no:<input type="number" name="Phn no" placeholder="1122334455"></p> 
+<p>Email:<input type="Email" name="Email" placeholder="ishita@gmail.com"></p> 
+<fieldset> 
+<legend>Gender</legend> 
+<p> 
+
+Male:<input type="radio" name="gender" id="male"> 
+Female:<input type="radio" name="gender" id="female"> 
+</p> 
+</fieldset> 
+<p>Address: <textarea name="address" id="address" cols="100" rows="8" placeholder="Write your address here"></textarea></p> 
+<p>pin no:<input type="number" name="pin no" placeholder="112233"></p> 
+<h2>Gardian Information</h2> 
+<fieldset> 
+<legend>Name</legend> 
+<p>Fname:* <input type="text" name="FirstName" required></p> 
+<p>Midname: <input type="text" name="MidName" required></p> 
+<p>Lname:* <input type="text" name="LastName" required></p> 
+</fieldset> 
+<p>Phn no:<input type="number" name="Phn no"></p> 
+<p>Email:<input type="Email" name="Email"></p> 
+<p>Occupassion:<input type="text" name="occupassion"></p> 
+<h2>Accademic Details</h2> 
+<p>10th School Name:<input type="text" name="Schoolname"</p> 
+<p>Board:* 
+<select name="Board" id="Board"required> 
+<option value="">---select your board---</option> 
+<option value="WBSSC">WBSSC</option> 
+<option value="CBSC">CBSC</option> 
+<option value="ICSC">ICSC</option> 
+<option value="ISC">ISC</option> 
+<option value="UP Board">UP Board</option> 
+</select></p> 
+<p>10th cgpa:<input type="number" name="cgpa"></p> 
+<p>12th School Name:<input type="text" name="Schoolname"</p> 
+<p>Board:* 
+<select name="Board" id="Board"required> 
+<option value="">---select your board---</option> 
+<option value="WBSSC">WBSSC</option> 
+<option value="CBSC">CBSC</option> 
+<option value="ICSC">ICSC</option> 
+<option value="ISC">ISC</option> 
+<option value="UP Board">UP Board</option> 
+</select></p> 
+<p>12th cgpa:<input type="number" name="cgpa"></p> 
+<p>Educational Achievment(if any):<input type="text" name="achievment"></p> 
+<h2>Course Details</h2> 
+<p>Select Course:* 
+<select name="Course" id="Course" required> 
+<option value="">---select your Course---</option> 
+<option value="B.Tech">B.Tech</option> 
+<option value="M.Tech">M.Tech</option> 
+<option value="BSC">BSC</option> 
+<option value="BBA-LLB">BBA-LLB</option> 
+<option value="BBA">BBA</option> 
+<option value="MBA">MBA</option> 
+</select> 
+</p> 
+<p>Duration: 
+<select name="Duration" id="Duration" required> 
+<option value="">---select your duration---</option> 
+<option value="2 years">2 years</option> 
+<option value="3 years">3 years</option> 
+<option value="4 years">4 years</option> 
+</select> 
+</p> 
+<p>Discipline of Course:* 
+<select name="Discipline" id="Discipline" required> 
+<option value="">---select your stream---</option> 
+<option value="CSE, B.Tech">CSE, B.Tech</option> 
+<option value="EE, B.Tech">EE, B.Tech</option> 
+<option value="ECE, B.Tech">ECE, B.Tech</option> 
+<option value="CSE, M.Tech">CSE, M.Tech</option> 
+<option value="EE, M.Tech">EE, M.Tech</option> 
+<option value="ECE, M.Tech">ECE, M.Tech</option> 
+<option value="BBA-LLB">BBA-LLB</option> 
+<option value="BSC">BSC</option> 
+<option value="BBA">BBA</option> 
+<option value="MBA">MBA</option> 
+</select> 
+</p> 
+
+<p>Institution Name:* 
+<select name="Institution" id="Institution" required> 
+<option value="">---select b/n IEM,UEM---</option> 
+<option value="IEMK">IEMK</option> 
+<option value="UEMK">UEMK</option> 
+</select> 
+</p> 
+<p>Date Of Admission:<input type="date" name="date"></p> 
+<h2>Fees Structure</h2> 
+<fieldset> 
+<legend>Bank Info</legend> 
+<p>Name of Bank:<input type="text" name="bank name"></p> 
+<p>IFSC code:<input type="text" name="IFSC code"></p> 
+<p>Branch code:<input type="text" name="Branch code"></p> 
+<p>A/c no:<input type="number" name="a/c no"></p> 
+<p>Branch name:<input type="text" name="Branch name"></p> 
+<p>MICR code:<input type="number" name="MICR code"></p> 
+</fieldset> 
+<fieldset> 
+<legend>Online Transaction</legend> 
+<p>Card type:* 
+<select name="card_type" id="card_type"required> 
+<option value="">---select a card type---</option> 
+<option value="Visa">Visa</option> 
+<option value="Master card">Master card</option> 
+<option value="Rupay">Rupay</option> 
+</select> 
+</p> 
+<p> 
+card number *<input type="Number" name="Card_number"required id="Card_number" placeholder="1111-2222-3333-4444"> 
+</p> 
+<p> 
+Expiration date* <input type="Date" name="exp_date" id="exp_date"required> 
+</p> 
+<p> 
+CVV* <input type="password" name="cvv" id="cvv"required placeholder="111"> 
+</p> 
+</fieldset> 
+<p>Total fees: 
+<select name="Fees" id="Fees" required> 
+<option value="">---select your fees---</option> 
+<option value="81,000 CSE, B.Tech">81,000 CSE, B.Tech</option> 
+<option value="75,000 EE, B.Tech">75,000 EE, B.Tech</option> 
+<option value="75,000 ECE, B.Tech">75,000 ECE, B.Tech</option> 
+<option value="80,000 CSE, M.Tech">80,000 CSE, M.Tech</option> 
+<option value="70,000 EE, M.Tech">70,000 EE, M.Tech</option> 
+<option value="70,000 ECE, M.Tech">70,000 ECE, M.Tech</option> 
+<option value="55,000 BBA-LLB">55,000 BBA-LLB</option> 
+<option value="45,000 BSC">45,000 BSC</option> 
+<option value="55,000 BBA">55,000 BBA</option> 
+<option value="90,000 MBA">90,000 MBA</option> 
+</select> 
+</p> 
+<input type="Submit" value="Pay now"> 
+</form> 
+</div> 
+</body> 
+</html>
